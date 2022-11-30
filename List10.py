@@ -8,7 +8,10 @@ def main(list_num):
     """
     i = []
     if list_num[0] < list_num[-1]:
-
+        i = list_num[-1]
+    else:
         i = list_num[0]
 
     return  i
+c = [5,32,1,4,3]
+print(main(c))
