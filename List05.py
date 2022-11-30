@@ -8,5 +8,4 @@ def main(list1,i):
         list: return answer
     """
     s = list1
-
     return s[i]
